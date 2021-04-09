@@ -1,0 +1,97 @@
+    * {
+        letter-spacing: 1px;
+        font-size: 18px;
+        font-family: "Kumbh Sans", sans-serif;
+    }
+    
+    body {
+        margin: 0;
+        background: url('images/bg-pattern-top.svg') no-repeat -220px -550px, url('images/bg-pattern-bottom.svg') no-repeat 800px 300px, linear-gradient(to right, hsla(184, 92%, 36%, 0.85), hsla(184, 91%, 22%, 0.85));
+    }
+    
+    .card {
+        background: url('images/bg-pattern-card.svg') no-repeat, white;
+        margin: 150px 0 0 590px;
+        width: 350px;
+        height: auto;
+        box-shadow: 0 0 10px transparent;
+        border-radius: 12px;
+    }
+    
+    .top {
+        padding-top: 85px;
+        text-align: center;
+    }
+    
+    .image img {
+        padding: 5px;
+        border-radius: 50%;
+        background: white;
+    }
+    
+    .border {
+        border-top: 1px solid rgb(230, 225, 225);
+    }
+    
+    .info {
+        text-align: center;
+    }
+    
+    hr {
+        font-weight: 100;
+    }
+    
+    span {
+        font-size: 14px;
+        font-weight: 200;
+        color: gray;
+    }
+    
+    .row .col span {
+        font-size: 12px;
+    }
+    
+    .infospace {
+        padding: 25px 0;
+    }
+    
+    .infospace>strong {
+        line-height: 1.7;
+    }
+    
+    .row {
+        display: flex;
+        width: 100%;
+    }
+    
+    .col {
+        width: 33.33%;
+    }
+    
+    .row::after {
+        display: block;
+        clear: both;
+        content: "";
+    }
+    
+    footer {
+        padding-top: 20px;
+    }
+    
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+    
+    @media(max-width:678px) {
+        body {
+            background: url('images/bg-pattern-top.svg') no-repeat -690px -650px, url('images/bg-pattern-bottom.svg') no-repeat 200px 280px, linear-gradient(to right, hsla(184, 92%, 36%, 0.85), hsla(184, 85%, 32%, 0.85));
+        }
+        .card {
+            margin: 120px 0px 20px 15%;
+        }
+    }
